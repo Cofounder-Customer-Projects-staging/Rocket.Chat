@@ -24,3 +24,4 @@ def filter_outliers(data: list, threshold: float = 2.0) -> list:
 # Staging bot test v2 - Wed Apr  1 14:49:55 EDT 2026
 def hello(): return 'world' # Wed Apr  1 15:25:21 EDT 2026
 def greet(name): return f'Hello {name}'
+def add(a, b): return a + b

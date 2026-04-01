@@ -21,3 +21,4 @@ def filter_outliers(data: list, threshold: float = 2.0) -> list:
     mean = statistics.mean(data)
     stdev = statistics.stdev(data)
     return [x for x in data if abs(x - mean) <= threshold * stdev]
+# Staging bot test v2 - Wed Apr  1 14:49:55 EDT 2026
